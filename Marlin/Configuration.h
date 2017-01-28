@@ -208,9 +208,9 @@
 //    #define  DEFAULT_Kd 12
 
 // Mendel Parts V9 on 12V
-    #define  DEFAULT_Kp 30.52
-    #define  DEFAULT_Ki 2.34
-    #define  DEFAULT_Kd 99.39
+    #define  DEFAULT_Kp 20.24
+    #define  DEFAULT_Ki 1.22
+    #define  DEFAULT_Kd 83.72
 #endif // PIDTEMP
 
 // Bed Temperature Control
@@ -494,7 +494,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 // default settings
 
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   {78.7402,78.7402,200.0*8/3,760*1.1}  // default steps per unit for Ultimaker
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80, 4000,700}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {80,80, 4000,849}
 //#define DEFAULT_MAX_FEEDRATE          {500, 500, 5, 25}    // (mm/sec)
 #define DEFAULT_MAX_FEEDRATE          {400, 200, 2, 45}    // (mm/sec)
 //#define DEFAULT_MAX_ACCELERATION      {9000,9000,100,10000}    // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for Skeinforge 40+, for older versions raise them a lot.
